@@ -1,12 +1,15 @@
-# GraphQL Launch
+# GraphQL Films
 GraphQL  
-React  
-TypeScript  
+Apollo  
 Codegen  
+TypeScript  
+React  
 
-Schema - https://swapi-graphql.netlify.app/.netlify/functions/index 
+Studio Apollo GraphQL  
+Schema - https://swapi-graphql.netlify.app/.netlify/functions/index   
 Deploy - https://qraphql-films.web.app
 
+![alt text](demo.png) 
 
 
 
