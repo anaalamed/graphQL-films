@@ -2,6 +2,8 @@
     height: 100vh;
     overflow: hidden auto;
     background-color: #ececec;
+    background: midnightblue;
+    color: white;
     width: 300px;
     padding-left: 20px;
     padding-right: 20px;
@@ -18,4 +20,17 @@
     padding-bottom: 20px;
     border-top: 1px solid #919191;
     cursor: pointer;
+    border-radius: 1rem;
+  }
+
+  .LaunchList__item:hover {
+    background: lightblue;
+    color: midnightblue;
+  }
+
+  h3 {
+    /* color: midnightblue; */
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1rem;
   }

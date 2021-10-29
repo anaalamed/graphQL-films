@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useFilmProfileQuery } from '../../generated/graphql';
 import LaunchProfile from './LaunchProfile';
+import Loading from '../Loading/loading'
 
 interface OwnProps {
     id: string;
@@ -14,7 +15,8 @@ const LaunchProfileContainer: React.FC<OwnProps> = ({ id }) => {
     }, [refetch, id]);
 
     if (loading) {
-        return <div>Loading...</div>;
+        // return <div>Loading...</div>;
+        return <Loading></Loading>
     }
 
     if (error) {

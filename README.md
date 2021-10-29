@@ -4,8 +4,8 @@ React
 TypeScript  
 Codegen  
 
-Schema - https://spacexdata.herokuapp.com/graphql  
-Deploy - https://graphql-launch.web.app
+Schema - https://swapi-graphql.netlify.app/.netlify/functions/index 
+Deploy - https://qraphql-films.web.app
 
 
 
